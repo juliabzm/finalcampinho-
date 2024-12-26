@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-style: initial;
+}
+.storeh1{
+    color: rgb(43, 218, 43);
+}
+.ul{
+    font-family: arial;
+}
+.headerinner{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar{
+    background-color: gray;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    box-shadow: 10px 0px 10px #2c2c2c;
+    z-index: 99;
+}
+.navbar>div{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+nav ul{
+    display: flex;
+    margin-right: 100px;
+    list-style: none;
+    align-items:center;
+}
+.navicon{
+    display: flex;
+    align-items: center;
+}
+.navicon img{
+    width: 30px;
+    cursor:pointer;
+}
+.navicon img:first-child{
+    margin-right: 1rem;
+}
+nav ul li{
+    margin-right: 1.5rem;
+    cursor: pointer;
+}
+nav ul li:hover{
+    transform: translateY(-5px);
+    font-weight: bold;
+}
+.h2{
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.main-container {
+    display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-top: 20px;
+   align-content: stretch;
+}
+.container{
+    display: flex;
+    background-color: white;
+    border: 2px;
+    padding: 20px;
+    max-width: 300px;
+    height: 300px;
+    border-radius: 0px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+}
+.item{
+    background-color: aliceblue;
+    border: 2px;
+    width: 200px;
+    height: 200px;
+    border-radius: 0px;
+    display: flex;
+    margin: 10px;
+}
+.btn {
+    margin-top: 10px; 
+    padding: 10px 20px; 
+    background-color: gray; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: black;  
+}
+.nav-final {
+    background-color: #f4f4f4; /* Cor de fundo do rodapé */
+    text-align: center; /* Centraliza o texto */
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+.footercontent {
+    background-color: #333;
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+}
+
+.logo-footer h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Espaço abaixo do título */
+    color: black;
+}
+
+.downloadopc {
+    margin-bottom: 20px; /* Espaço abaixo da seção de download */
+}
+
+.downloadopc p {
+    margin: 5px 0; /* Espaço entre as linhas de texto */
+}
+
+.app-images img {
+    display: block; /* Cada imagem em uma nova linha */
+    margin: 10px auto; /* Espaçamento vertical e centralização */
+    max-width: 150px; /* Tamanho máximo das imagens */
+    height: auto; /* Mantém a proporção */
+}
+
+.links h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff
+}
+
+.links ul {
+    list-style-type: none; /* Remove os marcadores */
+    padding: 0;
+    margin: 0;
+}
+
+.links ul li {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.links ul li a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #555;
+}
+
+.links ul li a:hover {
+    color: #000; /* Cor ao passar o mouse */
+}
+
+.copyright {
+    margin-top: 20px; /* Espaçamento acima da seção copyright */
+    font-size: 12px;
+    color: #fff
+}
